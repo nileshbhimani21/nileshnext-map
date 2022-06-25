@@ -38,7 +38,7 @@ export const MyMapComponent = ({ zoom, Boy, Store }) => {
     marker1.setValues({type: "point", id: "marker1"});
     
     const angle = google.maps.geometry?.spherical.computeHeading(Boy, Store);
-    setRotate(angle)
+    setRotate(angle + 45)
 
     const marker2 = new window.google.maps.Marker({
       position: new window.google.maps.LatLng(Store),
