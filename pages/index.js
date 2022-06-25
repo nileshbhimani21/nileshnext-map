@@ -73,8 +73,8 @@ export const MyMapComponent = ({ zoom, Boy, Store }) => {
 
 export default function Home() {
   const Store = {
-    lat: 22.9975535,
-    lng: 72.489849,
+    lat: 22.6940984,
+    lng: 70.2986376,
   }
   const [Boy, setBoy] = useState({
     lat: 0,
